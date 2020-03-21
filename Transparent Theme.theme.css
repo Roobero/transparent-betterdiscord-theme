@@ -1,6 +1,6 @@
 //META{"name":"Transparent Theme","description":"Betterdiscord theme with transparent backgrounds.","author":"Roo","version":"1.0"}  *//
 
-@import url("code.css");
+@import url("docs/code.css");
 /*EDITABLE SECTION*/
 :root{
     --background: url('https://roo.is-a-bad-waifu.com/8rHd6hq.jpeg'); /*BACKGROUND IMAGE URL*/
