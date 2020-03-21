@@ -15,7 +15,7 @@
 }
 
 /*add transparency gradients*/
-.theme-dark .wrapper-1Rf91z, .container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN ,.da-app .activityFeed-28jde9, .activityFeed-1C0EmJ, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app #friends, .da-app .contentRegion-3nDuYy, .da-app .noChannel-Z1DQK7, .da-app .container-3gCOGc, .panels-j1Uci_, .themeDark-3Ap_7i, .da-app .chat-3bRxxu, .typeWindows-1za-n7, .theme-dark .scrollableContainer-2NUZem, .theme-dark .messagesPopoutWrap-1MQ1bW, .emojiPicker-3m1S-j, .infoBar-U6oBFk, .theme-dark .container-3ISnnM, .theme-dark .attachment-33OFj0, .theme-dark .embedFull-2tM8--, .theme-dark .modal-yWgWj-, .theme-dark .container-1D34oG, .inset-3sAvek, .container-3Mxszk, .theme-dark .jumpToPresentBar-9P20AM, .unread-1xRYoj  {
+.theme-dark .wrapper-1Rf91z, .container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN ,.da-app .activityFeed-28jde9, .activityFeed-1C0EmJ, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app #friends, .da-app .contentRegion-3nDuYy, .da-app .noChannel-Z1DQK7, .da-app .container-3gCOGc, .panels-j1Uci_, .themeDark-3Ap_7i, .da-app .chat-3bRxxu, .typeWindows-1za-n7, .theme-dark .scrollableContainer-2NUZem, .theme-dark .messagesPopoutWrap-1MQ1bW, .emojiPicker-3m1S-j, .infoBar-U6oBFk, .theme-dark .container-3ISnnM, .theme-dark .attachment-33OFj0, .theme-dark .embedFull-2tM8--, .theme-dark .modal-yWgWj-, .theme-dark .container-1D34oG, .inset-3sAvek, .container-3Mxszk, .theme-dark .jumpToPresentBar-9P20AM, .unread-1xRYoj, .input-2VB9rf {
     background: transparent;
     background-image: var(--transparency);
 }
