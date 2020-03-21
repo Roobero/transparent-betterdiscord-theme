@@ -252,3 +252,8 @@ rect.pointerEvents-2zdfdO {
 .barFill-23-gu- {
     background: var(--color1);
 }
+
+/*limit user popout size*/
+.userPopout-3XzG_A {
+    max-height: 600px;
+}
