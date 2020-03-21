@@ -101,7 +101,7 @@ div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"]
     color: #f04747;
     font-weight: 600;
     padding: 0px 8px;
-    background-color: var(--colour2);
+    background-color: var(--color1);
     border-radius: 0;
     font-size: 0px;
 }
@@ -144,14 +144,14 @@ rect.pointerEvents-2zdfdO {
 
 /*VC pill gradient*/
 .wrapper-pZmgj4 {
-    color: var(--colour3);
+    color: var(--color1);
     border-radius: 20%;
     background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
 }
 
 /*Change the color of guild nitro boost after scrolling*/
 .disableColor-MwOAZf, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc {
-    color: var(--colour2);
+    color: var(--color1);
 }
 
 /*Make status icons in context menu round*/
@@ -166,13 +166,13 @@ rect.pointerEvents-2zdfdO {
     background: transparent !important;
 }
 
-/*White Discord logo*/
+/*Discord logo color*/
 .wordmarkWindows-1v0lYD {
-    color: white !important;
+    color: var(--textColor) !important;
 }
 
 /*Scrollbars*/
-#app-mount ::-webkit-scrollbar-thumb { background-color: var(--colour2-border); border-color: transparent; }
+#app-mount ::-webkit-scrollbar-thumb { background-color: var(--color1); border-color: transparent; }
 #app-mount ::-webkit-scrollbar-track-piece { background-color: transparent; border-color: transparent; }
 #app-mount ::-webkit-scrollbar-track { background-color: transparent; }
 
