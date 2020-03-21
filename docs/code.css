@@ -238,3 +238,7 @@ rect.pointerEvents-2zdfdO {
     background-color: rgba(89,54,149,0.9)
 }
 
+/*New messages line*/
+.newMessagesBar-mujexs {
+    background-color: var(--color1);
+}
