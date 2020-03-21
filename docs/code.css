@@ -195,3 +195,19 @@ rect.pointerEvents-2zdfdO {
 .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
     background-color: var(--color1);
 }
+
+/*User profiles*/
+.root-SR8cQa {
+    border: solid 1px var(--color1);
+    background-color: rgba(15, 15, 15, 0.95);
+}
+
+/*Context menu*/
+.contextMenu-HLZMGh, .menu-Sp6bN1 {
+    border: solid 1px var(--color1);
+    background-color: rgba(15, 15, 15, 0.95);
+}
+
+.clickable-11uBi-:hover, .selected-BYpGTS {
+    background-color: var(--color1);
+}
