@@ -242,3 +242,8 @@ rect.pointerEvents-2zdfdO {
 .newMessagesBar-mujexs {
     background-color: var(--color1);
 }
+
+/*remove border radius of channel sidebar*/
+.sidebar-2K8pFh {
+    border-radius: 0;
+}
