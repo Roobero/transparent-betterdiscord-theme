@@ -216,3 +216,8 @@ rect.pointerEvents-2zdfdO {
 .video-1FfuMD {
     background-color: rgba(15, 15, 15, 0.95);
 }
+
+/*User context menu*/
+.headerNormal-T_seeN {
+    background: var(--transparency);
+}
