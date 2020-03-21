@@ -175,3 +175,8 @@ rect.pointerEvents-2zdfdO {
 #app-mount ::-webkit-scrollbar-thumb { background-color: var(--colour2-border); border-color: transparent; }
 #app-mount ::-webkit-scrollbar-track-piece { background-color: transparent; border-color: transparent; }
 #app-mount ::-webkit-scrollbar-track { background-color: transparent; }
+
+/*Remove margin on top of the window*/
+.withFrame-haYltI {
+    margin-top: 0;
+}
