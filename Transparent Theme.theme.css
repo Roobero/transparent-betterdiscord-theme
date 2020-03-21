@@ -1,0 +1,17 @@
+//META{"name":"Transparent Theme","description":"Betterdiscord theme with transparent backgrounds.","author":"Roo","version":"1.0"}  *//
+
+@import url("https://roobero.github.io/transparent-betterdiscord-theme/code.css");
+/*EDITABLE SECTION*/
+:root{
+    --background: url('https://roo.is-a-bad-waifu.com/8rHd6hq.jpeg'); /*BACKGROUND IMAGE URL*/
+
+    --color1: rgb(3, 144, 252); /*MAIN COLOR OF THE THEME HERE*/
+
+    --textColor: #ededed; /*SET TEXT COLOR HERE*/
+
+    --transparency: linear-gradient(to right, rgba(0,0,0,0.70), rgba(0,0,0,0.70)); /*TRANSPARENCY OF THE BACKGROUND. IF YOU WANT TO MAKE IT MORE TRANSPARENT CHANGE THE LAST VALUE TO BE CLOSER TO 0. IF LESS TRANSPARENT CHANGE TO BE CLOSER TO 1.*/
+
+    --avatar-roundness: 10%; /*FOR CIRCLE CHANGE TO 50%, FOR SQUARE CHANGE TO 0%*/
+    --icon-roundness: 10%; /*FOR CIRCLE CHANGE TO 50%, FOR SQUARE CHANGE TO 0%*/
+}
+
