@@ -248,3 +248,7 @@ rect.pointerEvents-2zdfdO {
     border-radius: 0;
 }
 
+/*change volume color*/
+.barFill-23-gu- {
+    background: var(--color1);
+}
