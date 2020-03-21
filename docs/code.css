@@ -187,7 +187,7 @@ rect.pointerEvents-2zdfdO {
 }
 
 /*Change discord channel icons to match the text color while selected*/
-.modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX, .name-3_Dsmg {
+.modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX {
     color: var(--textColor);
 }
 
