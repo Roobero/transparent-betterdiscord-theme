@@ -171,6 +171,11 @@ rect.pointerEvents-2zdfdO {
     color: var(--textColor) !important;
 }
 
+/*Change some of the highlighting to user color*/
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background-color: var(--color1);
+}
+
 /*Scrollbars*/
 #app-mount ::-webkit-scrollbar-thumb { background-color: var(--color1); border-color: transparent; }
 #app-mount ::-webkit-scrollbar-track-piece { background-color: transparent; border-color: transparent; }
