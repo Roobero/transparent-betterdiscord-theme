@@ -77,6 +77,13 @@ img.icon-27yU2q {
     border-radius: var(--icon-roundness);
 }
 
+/*Fix golive members not being all square*/
+.viewer-2fFR_X {
+    margin-left: 3px;
+    -webkit-mask: none;
+    mask: none;
+}
+
 /*Old "new messages" bar*/
 .group-spacing-16 .beforeGroup-1rH1F0 {
     margin-bottom: -1px;
@@ -125,7 +132,7 @@ rect.pointerEvents-2zdfdO {
     fill-opacity:0.8;
 }
 
-/*FIX THE LIMITED SIZE VC NUMBER*/
+/*Fix limited VC pill */
 .total-3tKGEB:after {
     content: "/";
     position: absolute;
@@ -148,14 +155,14 @@ rect.pointerEvents-2zdfdO {
     color: var(--colour2);
 }
 
-/*MAKE STATUS ICONS IN THE CONTEXT MENU ROUND*/
+/*Make status icons in context menu round*/
 .status-1AY8sU {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
-/*COMPATIBILITY WITH THE MEMBER COUNT PLUGIN*/
+/*Compatibility with member count*/
 #MemberCount {
     background: transparent !important;
 }
@@ -163,11 +170,4 @@ rect.pointerEvents-2zdfdO {
 /*White Discord logo*/
 .wordmarkWindows-1v0lYD {
     color: white !important;
-}
-
-/*Fix golive members not being all square*/
-.viewer-2fFR_X {
-    margin-left: 3px;
-    -webkit-mask: none;
-    mask: none;
 }
