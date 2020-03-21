@@ -190,3 +190,8 @@ rect.pointerEvents-2zdfdO {
 .modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX, .name-3_Dsmg {
     color: var(--textColor);
 }
+
+/*Highlight selected channels*/
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+    background-color: var(--color1);
+}
