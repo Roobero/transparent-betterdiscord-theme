@@ -211,3 +211,8 @@ rect.pointerEvents-2zdfdO {
 .clickable-11uBi-:hover, .selected-BYpGTS {
     background-color: var(--color1);
 }
+
+/*Call screen*/
+.video-1FfuMD {
+    background-color: rgba(15, 15, 15, 0.95);
+}
