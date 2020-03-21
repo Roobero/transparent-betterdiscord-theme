@@ -1,7 +1,6 @@
 /* Set background image */
 .da-appMount {
-    background: url("https://roo.is-a-bad-waifu.com/8rHd6hq.jpeg") no-repeat center center fixed;
-    background-position: center;
+    background: url("https://roo.is-a-bad-waifu.com/8rHd6hq.jpeg") no-repeat fixed center;
     background-size: cover;
 }
 .theme-dark {
