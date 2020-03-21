@@ -1,0 +1,29 @@
+//META{"name":"Transparent Theme","description":"Betterdiscord theme with transparent backgrounds.","author":"Roo","version":"1.0"}  *//
+
+@import url("code.css");
+/*EDITABLE SECTION*/
+:root{
+    --background: url('https://roo.is-a-bad-waifu.com/8rHd6hq.jpeg'); /*BACKGROUND IMAGE URL*/
+
+    --colour1: rgb(3, 144, 252); /*COLOR FOR LINKS, NEW MESSAGES BAR, SETTINGS HIGHLIGHTS AND MENTIONS*/
+    --colour1-active: rgba(3, 144, 252 ,0.2); /*3, 144, 252 is default*/
+
+    --colour1-disabled: rgba(3, 144, 252,0.2);
+    --colour1-disabled-border: rgb(3, 144, 252);
+
+    --colour2: rgba(60, 165, 240, 1); /* FOR AUTOCOMPLETE OF / COMMANDS AND ?????*/
+    --colour2-border: rgb(60, 165, 240); /*241, 32, 48 is default*/
+
+    --colour3: white;
+
+    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.70), rgba(0,0,0,0.70)); /*TRANSPARENCY OF THE BACKGROUND. IF YOU WANT TO MAKE IT MORE TRANSPARENT CHANGE THE LAST VALUE TO BE CLOSER TO 0. IF LESS TRANSPARENT CHANGE TO BE CLOSER TO 1.*/
+    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+
+    --avatar-roundness: 10%; /*FOR CIRCLE CHANGE TO 50%, FOR SQUARE CHANGE TO 0%*/
+    --icon-roundness: 10%; /*FOR CIRCLE CHANGE TO 50%, FOR SQUARE CHANGE TO 0%*/
+
+}
+
