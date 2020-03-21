@@ -223,19 +223,19 @@ rect.pointerEvents-2zdfdO {
 }
 
 .bodyInner-245q0L, .footer-1fjuF6 {
-    background-color: rgba(15, 15, 15, 0.9);
+    background-color: rgba(15, 15, 15, 0.9) !important;
 }
 
 .headerPlaying-j0WQBV , .topSectionPlaying-1J5E4n {
-    background-color: rgba(114,137,218,0.9);
+    background-color: rgba(114,137,218,0.9) !important;
 }
 
 .headerSpotify-zpWxgT , .topSectionSpotify-1lI0-P {
-    background-color: rgba(29,185,84,0.9)
+    background-color: rgba(29,185,84,0.9) !important;
 }
 
 .headerStreaming-2FjmGz , .topSectionStreaming-1Tpf5X {
-    background-color: rgba(89,54,149,0.9)
+    background-color: rgba(89,54,149,0.9) !important;
 }
 
 /*New messages line*/
@@ -247,3 +247,5 @@ rect.pointerEvents-2zdfdO {
 .sidebar-2K8pFh {
     border-radius: 0;
 }
+
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6
