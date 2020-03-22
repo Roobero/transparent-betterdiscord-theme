@@ -243,17 +243,22 @@ rect.pointerEvents-2zdfdO {
     background-color: var(--color1);
 }
 
-/*remove border radius of channel sidebar*/
+/*Remove border radius of channel sidebar*/
 .sidebar-2K8pFh {
     border-radius: 0;
 }
 
-/*change volume color*/
+/*Change volume color*/
 .barFill-23-gu- {
     background: var(--color1);
 }
 
-/*limit user popout size*/
+/*Limit user popout size*/
 .userPopout-3XzG_A {
     max-height: 600px;
+}
+
+/*add background to invites*/
+.wrapper-35wsBm {
+    background: var(--transparency);
 }
