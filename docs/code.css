@@ -164,6 +164,8 @@ rect.pointerEvents-2zdfdO {
 /*Compatibility with member count*/
 #MemberCount {
     background: transparent !important;
+    position: static;
+    border-bottom: none;
 }
 
 /*Discord logo color*/
@@ -261,4 +263,11 @@ rect.pointerEvents-2zdfdO {
 /*add background to invites*/
 .wrapper-35wsBm {
     background: var(--transparency);
+}
+
+/*align member groups to center*/
+.membersGroup-v9BXpm {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: solid 1.5px var(--color1);
 }
