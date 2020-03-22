@@ -247,7 +247,7 @@ rect.pointerEvents-2zdfdO {
 
 /*Remove border radius of channel sidebar*/
 .sidebar-2K8pFh {
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 /*Change volume color*/
