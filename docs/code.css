@@ -15,9 +15,8 @@
 }
 
 /*add transparency gradients*/
-.theme-dark .wrapper-1Rf91z, .container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN ,.da-app .activityFeed-28jde9, .activityFeed-1C0EmJ, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app #friends, .da-app .contentRegion-3nDuYy, .da-app .noChannel-Z1DQK7, .da-app .container-3gCOGc, .panels-j1Uci_, .themeDark-3Ap_7i, .da-app .chat-3bRxxu, .typeWindows-1za-n7, .theme-dark .scrollableContainer-2NUZem, .theme-dark .messagesPopoutWrap-1MQ1bW, .emojiPicker-3m1S-j, .infoBar-U6oBFk, .theme-dark .container-3ISnnM, .theme-dark .attachment-33OFj0, .theme-dark .embedFull-2tM8--, .theme-dark .modal-yWgWj-, .theme-dark .container-1D34oG, .inset-3sAvek, .container-3Mxszk, .theme-dark .jumpToPresentBar-9P20AM, .unread-1xRYoj, .input-2VB9rf, .markup-2BOw-j code {
-    background: transparent;
-    background-image: var(--transparency);
+.theme-dark .wrapper-1Rf91z, .container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN ,.da-app .activityFeed-28jde9, .activityFeed-1C0EmJ, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app #friends, .da-app .contentRegion-3nDuYy, .da-app .noChannel-Z1DQK7, .da-app .container-3gCOGc, .panels-j1Uci_, .themeDark-3Ap_7i, .da-app .chat-3bRxxu, .typeWindows-1za-n7, .theme-dark .scrollableContainer-2NUZem, .theme-dark .messagesPopoutWrap-1MQ1bW, .emojiPicker-3m1S-j, .infoBar-U6oBFk, .theme-dark .container-3ISnnM, .theme-dark .attachment-33OFj0, .theme-dark .embedFull-2tM8--, .theme-dark .modal-yWgWj-, .theme-dark .container-1D34oG, .inset-3sAvek, .container-3Mxszk, .theme-dark .jumpToPresentBar-9P20AM, .unread-1xRYoj, .input-2VB9rf, .markup-2BOw-j code, .autocompleteInner-zh20B_ {
+    background: transparent var(--transparency) !important;
 }
 /*remove message hover background*/
 .message-2qnXI6.selected-2P5D_Z, .mouse-mode.full-motion .message-2qnXI6:hover {
@@ -35,10 +34,10 @@
     border-top: var(--background-modifier-accent) solid 1px !important;
 }
 .messages-3amgkR .message-2qnXI6:not(.groupStart-23k01U) {
-    padding-top:0px !important;
+    padding-top:0 !important;
 }
 .container-3FojY8 {
-    padding: 0rem 16px .0rem 72px !important;
+    padding: 0 16px .0rem 72px !important;
 }
 
 /*Hide emoji picker separator*/
@@ -100,16 +99,16 @@ div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"]
     top: 0;
     color: #f04747;
     font-weight: 600;
-    padding: 0px 8px;
+    padding: 0 8px;
     background-color: var(--color1);
     border-radius: 0;
-    font-size: 0px;
+    font-size: 0;
 }
 
 div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"][class*="isUnread"] > span[class*="unreadPill"]::after {
     font-size: 14px;
     content: "NEW MESSAGES";
-    background-image: var(--transparency-1);
+    background-image: var(--transparency);
 }
 
 div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"][class*="isUnread"] > span::before {
