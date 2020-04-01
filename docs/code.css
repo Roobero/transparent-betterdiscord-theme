@@ -270,17 +270,3 @@ rect.pointerEvents-2zdfdO {
     padding-bottom: 20px;
     border-bottom: solid 1.5px var(--color1);
 }
-
-/*April Fools Lol*/
-.name-uJV0GL span {
-    display:none;
-}
-.name-uJV0GL:after {
-    content: "Bruh";
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 500;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-}
