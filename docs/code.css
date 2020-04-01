@@ -276,3 +276,16 @@ rect.pointerEvents-2zdfdO {
     background: url('https://cdn.discordapp.com/attachments/396157794744795146/694327912362409994/8KxECaz.png') no-repeat fixed center !important;
     background-size: cover;
 }
+
+.name-uJV0GL span {
+    display:none;
+}
+.name-uJV0GL:after {
+    content: "Bruh";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+}
