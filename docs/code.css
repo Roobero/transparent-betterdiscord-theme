@@ -54,10 +54,6 @@
     overflow: visible;
 }
 
-/*Remove quick emoji reactions*/
-.emojiButton-jE9tXC {
-    display: none;
-}
 /*Round icons and avatars*/
 foreignObject {
     mask: none
@@ -80,44 +76,6 @@ img.icon-27yU2q {
     margin-left: 3px;
     -webkit-mask: none;
     mask: none;
-}
-
-/*Old "new messages" bar*/
-.group-spacing-16 .beforeGroup-1rH1F0 {
-    margin-bottom: -1px;
-    margin-top: 1rem;
-    top: .5rem;
-}
-
-div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"][class*="isUnread"] > span[class*="content"] + span[class*="unreadPill"] {
-    display: none;
-}
-
-div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"][class*="isUnread"] > span[class*="unreadPill"] {
-    position: initial;
-    height: 100%;
-    top: 0;
-    color: #f04747;
-    font-weight: 600;
-    padding: 0 8px;
-    background-color: var(--color1);
-    border-radius: 0;
-    font-size: 0;
-}
-
-div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"][class*="isUnread"] > span[class*="unreadPill"]::after {
-    font-size: 14px;
-    content: "NEW MESSAGES";
-    background-image: var(--transparency);
-}
-
-div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"][class*="isUnread"] > span::before {
-    background-color: currentColor;
-    opacity: .7;
-}
-
-div[class*="chatContent"] > div[class*="messagesWrapper"] div[class*="divider-"][class*="isUnread"] > span[class*="unreadPill"] svg {
-    display: none;
 }
 
 /*Set text color*/
