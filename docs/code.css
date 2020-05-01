@@ -212,11 +212,6 @@ rect.pointerEvents-2zdfdO {
     background: var(--color1);
 }
 
-/*Limit user popout size*/
-.userPopout-3XzG_A {
-    max-height: 600px;
-}
-
 /*add background to invites*/
 .wrapper-35wsBm {
     background: var(--transparency);
