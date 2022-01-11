@@ -1,5 +1,5 @@
 /* Set background image */
-.appMount-3lHmkl {
+body {
     background: var(--background) no-repeat fixed center;
     background-size: cover;
 }
@@ -8,49 +8,53 @@
     --background-secondary: none;
     --background-tertiary: none;
     --background-accent: none;
+    --background-secondary-alt:none;
+    --channeltextarea-background:none;
 }
-.inspector-S2gM3e, .container-2lgZY8, .contentWrapper-SvZHNd, .channels-Ie2l6A, .container-3w7J-x, .da-app .layer-3QrUeG, .da-app .layers-3iHuyZ, .da-app .chat-3bRxxu, .da-app .channelTextArea-rNsIhG, .da-app .content-yTz4x3, .da-app .messagesWrapper-3lZDfY, .da-app .chat-3bRxxu form, .da-app .members-1998pB, .da-app .headerBar-UHpsPw, .da-app .standardSidebarView-3F1I7i, .da-app .typing-2GQL18, .inspector-3LQtX9
-{
-    background: transparent;
+
+/* Remove topbar margin */
+.withFrame-2dL45i {
+    margin-top: 0px;
+    padding-bottom: 5px;
+}
+
+.channelTextArea-1FufC0 {
+    border: 1px solid var(--color1);
+}
+
+/* Remove hover background */
+.message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion, .message-2CShn3:hover {
+    background:none;
+}
+
+.flowerStar-2tNFCR > path {
+    fill:var(--color1);
+}
+
+/* Remove buttons' side padding */
+.buttons-3dF5Kd {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/*Embed wrapper border*/
+.embedWrapper-1MtIDg {
+    border-left: 4px solid var(--color1)
 }
 
 /*add transparency gradients*/
-.inspector-S2gM3e, .theme-dark .wrapper-1Rf91z, .contentWrapper-SvZHNd, .container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN ,.da-app .activityFeed-28jde9, .container-3w7J-x, .activityFeed-1C0EmJ, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app #friends, .da-app .contentRegion-3nDuYy, .da-app .noChannel-Z1DQK7, .da-app .container-3gCOGc, .panels-j1Uci_, .themeDark-3Ap_7i, .da-app .chat-3bRxxu, .typeWindows-1za-n7, .theme-dark .scrollableContainer-2NUZem, .theme-dark .messagesPopoutWrap-1MQ1bW, .emojiPicker-3m1S-j, .infoBar-U6oBFk, .theme-dark .container-3ISnnM, .theme-dark .attachment-33OFj0, .theme-dark .embedFull-2tM8--, .theme-dark .modal-yWgWj-, .theme-dark .container-1D34oG, .inset-3sAvek, .container-3Mxszk, .theme-dark .jumpToPresentBar-9P20AM, .unread-1xRYoj, .input-2VB9rf, .markup-2BOw-j code, .autocompleteInner-zh20B_, .drawerSizingWrapper-27qFHb, .container-enaOkj, .body-3iLsc4, .footer-1fjuF6, .chat-3bRxxu, .platform-win .standardSidebarView-3F1I7i, .emojiSection-3Fb9ix, .guildSection-1EoFKd {
+.appMount-2yBXZl, .embedWrapper-1MtIDg, .channelTextArea-1FufC0 {
     background: transparent var(--transparency) !important;
-}
-/*remove message hover background*/
-.message-2qnXI6.selected-2P5D_Z, .mouse-mode.full-motion .message-2qnXI6:hover {
-    background-color: transparent;
-}
-
-/* CREDIT KYZA */
-[class*="mentioned-"]{
-    background-color: var(--background-mentioned) !important;
-}
-
-.groupStart-23k01U {
-    margin-top: 1.0625rem !important;
-    padding-top: 0.53125rem !important;
-    border-top: var(--background-modifier-accent) solid 1px !important;
-}
-.messages-3amgkR .message-2qnXI6:not(.groupStart-23k01U) {
-    padding-top:0 !important;
-}
-.container-3FojY8 {
-    padding: 0 16px .0rem 72px !important;
 }
 
 /*Hide emoji picker separator*/
 .separator-42rNt0 {
     display: none;
 }
+
 /*Bigger avatars*/
-.avatar-1BDn8e {
-    width: 45px !important;
-    height: 45px !important;
-    background-size: cover;
-}
-.container-3FojY8 {
+
+.avatarWrapperNormal-ahVUaC {
     overflow: visible;
 }
 
@@ -58,10 +62,10 @@
 foreignObject {
     mask: none
 }
-.avatar-1BDn8e {
+.avatar-2Vndt_ {
     border-radius: var(--avatar-roundness);
 }
-.wrapper-3t9DeA, .wrapper-3t9DeA {
+.avatarWrapperNormal-ahVUaC {
     border-radius: var(--avatar-roundness);
 }
 img.avatar-VxgULZ {
@@ -143,16 +147,6 @@ rect.pointerEvents-2zdfdO {
 /*Remove margin on top of the window*/
 .withFrame-haYltI {
     margin-top: 0;
-}
-
-/*Change discord channel icons to match the text color while selected*/
-.modeSelected-1zApJ_ .icon-1_QxNX, .modeSelected-1zApJ_:hover .icon-1_QxNX {
-    color: var(--textColor);
-}
-
-/*Highlight selected channels*/
-.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
-    background-color: var(--color1);
 }
 
 /*User profiles*/
