@@ -12,9 +12,6 @@ body {
     --channeltextarea-background:none !important;
 }
 
-.profileColors-3Y0XaR {
-	--profile-gradient-primary-color: var(--transparency) !important;
-}
 /* Remove topbar margin */
 .withFrame-2dL45i {
     margin-top: 0px;
@@ -46,7 +43,7 @@ body {
 }
 
 /*add transparency gradients*/
-.appMount-2yBXZl, .embedWrapper-1MtIDg, .channelTextArea-1FufC0 {
+.appMount-2yBXZl, .embedWrapper-1MtIDg, .channelTextArea-1FufC0, code, .profileColors-3Y0XaR {
     background: transparent var(--transparency) !important;
 }
 
@@ -138,7 +135,7 @@ rect.pointerEvents-2zdfdO {
 }
 
 /*Change some of the highlighting to user color*/
-.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ .profileColors-3Y0XaR .wrapper-2vIMkT {
+.side-8zPYf6, .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu, .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .profileColors-3Y0XaR, .wrapper-2vIMkT {
     background-color: var(--color1);
 }
 
